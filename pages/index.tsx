@@ -1,4 +1,4 @@
-/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */ 
 /*                            External Dependencies                           */
 /* -------------------------------------------------------------------------- */
 
@@ -24,49 +24,31 @@ const Home = () => {
         <PageWrapper>
           <article>
             <motion.h1
-              data-text="I'm Adenekan Wonderful"
+              data-text="I'm Ziyovuddin Bekmuratov"
               className="intro__text"
               {...getTransitions(0.1)}
             >
-              <mark className="mark">I&apos;m Adenekan Wonderful</mark>
+              <mark className="mark">I'm Ziyovuddin Bekmuratov</mark>
             </motion.h1>
             <motion.p {...getTransitions(0.3)}>
-              {' '}
-              Your friendly neighborhood frontend developer, UX architect, and
-              JavaScript engineer. I spend my days (and often nights) painting
-              the Internet canvas with{' '}
+              Men frontend dasturchiman va kompyuter mutaxassisiman. Qo'shimcha ravishda backend va AI bilan ishlash tajribasiga egaman. Hozirda turli korxonalarga web-saytlar, Telegram botlar va keng qamrovli IT xizmatlarini muvaffaqiyatli taqdim etib kelmoqdaman.{' '}
               <Link href="/projects" aria-label="Go to Projects Page">
-                Projects
+                Loyiha
               </Link>{' '}
-              and lines of code, turning zeroes and ones into immersive,
-              interactive experiences,{' '}
+              ustida ishlash menga zavq bag'ishlaydi.
             </motion.p>
             <motion.p {...getTransitions(0.5)}>
-              Bona fide photochromic{' '}
-              <Link href="/articles" aria-label="Check out my Lens">
-                Lens
-              </Link>{' '}
-              enthusiast - sunlight or indoors, I&apos;ve got it covered. I
-              tread the path of minimalism, finding beauty in simplicity and
-              order. When I'm not crafting beautiful web experiences, you can
-              find me reading{' '}
-              <Link
-                href="/articles"
-                aria-label="Go to Articles Page And Check What I Read"
-              >
-                Articles
-              </Link>{' '}
-              or swaying to the rhythm of Pop Music & Jazz, losing myself in the
-              captivating flow of melodies. anyways you can{' '}
+              O'quvchilarga boshlang'ich dasturlash bilimlarini o'rgataman. Minimalizm va tartibni qadrlayman. Bo'sh vaqtimda maqolalar o'qish yoki Pop Music & Jazz tinglashni yoqtiraman. Batafsil ma'lumot olish uchun{' '}
               <Link href="/contact" aria-label="Go to Contact Page">
-                Contact Me
-              </Link>
+                Bog'lanish
+              </Link>{' '}
+              sahifasiga o'ting.
             </motion.p>
           </article>
 
           <br />
           <motion.div {...getTransitions(0.7)}>
-            <FooterLink goto="/about">See More About Me</FooterLink>
+            <FooterLink goto="/about">Men Haqimda Ko'proq Ma'lumot</FooterLink>
           </motion.div>
 
           <br />
