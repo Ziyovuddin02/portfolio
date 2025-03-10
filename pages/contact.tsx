@@ -31,7 +31,7 @@ const Contact = () => {
           <br />
           <form
             method="POST"
-            action="https://formspree.io/f/mbjnwjpd"
+            action="https://formspree.io/f/mblgjjwn"
           >
             <div className="fields">
               <div className="field half">
@@ -46,16 +46,17 @@ const Contact = () => {
                 />
               </div>
               <div className="field half">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  className="form-control"
-                  placeholder="Email manzilingiz"
-                  aria-required="true"
-                  required
-                />
-              </div>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        className="form-control"
+        placeholder="Telefon raqamingiz"
+        pattern="^\+998\d{2}\d{3}\d{2}\d{2}$"
+        aria-required="true"
+        required
+      />
+    </div>
               <div className="field">
                 <textarea
                   name="message"
