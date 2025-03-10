@@ -47,15 +47,16 @@ const Contact = () => {
               </div>
               <div className="field half">
       <input
-        type="tel"
-        name="phone"
-        id="phone"
-        className="form-control"
-        placeholder="Telefon raqamingiz"
-        pattern="^\+998\d{2}\d{3}\d{2}\d{2}$"
-        aria-required="true"
-        required
-      />
+  type="tel"
+  name="phone"
+  id="phone"
+  className="form-control"
+  placeholder="Telefon raqamingiz (+998 XX XXX XX XX)"
+  pattern="^\+998\s?\d{2}\s?\d{3}\s?\d{2}\s?\d{2}$"
+  aria-required="true"
+  required
+/>
+
     </div>
               <div className="field">
                 <textarea
