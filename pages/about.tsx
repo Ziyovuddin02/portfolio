@@ -22,65 +22,83 @@ const About = () => {
           <h1 className="intro__text">Men Haqimda.</h1> <br />
           <article>
             <ul className="timeline">
-              <li className="mt-2">
+              <li>
                 <Link href="/projects">
-                  Frontend Dasturchi{' '}
-                  <small>
-                    <Github />
-                  </small>
+                  Frontend Axborot Texnologiyalari Mutaxassisi{' '}
+                  <small>Jadidlar avlodi (Biznes Fabrika)</small>
                 </Link>
-                <Link
-                  href="/projects"
-                  id="cardHover"
-                  className="float-right"
-                >
-                  Loyihalarni Ko'rish
-                </Link>
+                <a className="float-right">
+                  <Date /> <b>2023 - Hozir</b>
+                </a>
                 <p>
-                  Men Frontend dasturchiman, qo'shimcha ravishda Backend va AI bilan ishlash tajribasiga egaman. Hozirda turli korxonalarga web-saytlar, Telegram botlar va keng qamrovli IT xizmatlarini muvaffaqiyatli taqdim etib kelmoqdaman.  
+                  Jadidlar avlodi nomidagi "Biznes Fabrika" o‘quv markazida HTML, CSS, JavaScript texnologiyalari bo‘yicha o‘quvchilarga boshlang‘ich bilimlar beraman.  
                 </p>
               </li>
               <li>
                 <Link href="/projects">
-                  O'qituvchi{' '}
-                  <small>
-                    <Product />
-                  </small>
+                  Frontend Mentor Mutaxassisi{' '}
+                  <small>Ziyo Ta'lim O'quv Markazi</small>
                 </Link>
-                <Link
-                  href="/projects"
-                  id="cardHover"
-                  className="float-right"
-                >
-                  O'quvchilarim
-                </Link>
+                <a className="float-right">
+                  <Date /> <b>2025 - Hozir</b>
+                </a>
                 <p>
-                  Jadidlar o'quv markazi va Ziyo Ta'lim markazlarida boshlang'ich dasturlash bilimlarini o'rgataman. O'quvchilarga o'z bilim va ko'nikmalarimni ulashish menga zavq bag'ishlaydi.
+                  Ziyo Ta'lim o‘quv markazida boshlang‘ich dasturlash bo‘yicha o‘quvchilarga ta’lim beraman.  
                 </p>
               </li>
               <li>
-                <Link href="/contact">
-                  Bog'lanish{' '}
-                  <small>
-                    <Dribble />
-                  </small>
+                <Link href="/projects">
+                  Informatika O‘qituvchisi{' '}
+                  <small>DM 3-sonli Maktab</small>
                 </Link>
-                <Link
-                  href="/contact"
-                  id="cardHover"
-                  className="float-right"
-                >
-                  Murojaat Qilish
-                </Link>
+                <a className="float-right">
+                  <Date /> <b>2025 - 2025</b>
+                </a>
                 <p>
-                  Agar ko'proq ma'lumot olishni istasangiz yoki biror loyiha ustida ishlashni xohlasangiz, bog'laning. Siz bilan hamkorlik qilishdan mamnun bo'laman! 
+                  Toshkent viloyati 3-sonli maktabda informatika fanidan o‘qituvchi sifatida ishladim.  
+                </p>
+              </li>
+              <li>
+                <Link href="/projects">
+                  Frontend va Kompyuter Savodxonligi Ustozi{' '}
+                  <small>Tursunoy Ona MCHJ (Matematika Education Centre)</small>
+                </Link>
+                <a className="float-right">
+                  <Date /> <b>2022 - 2023</b>
+                </a>
+                <p>
+                  Matematika Education Centre’da boshlang‘ich dasturlash va kompyuter savodxonligi bo‘yicha ta’lim berdim.  
+                </p>
+              </li>
+              <li>
+                <Link href="/projects">
+                  Kompyuter Operator Mutaxassisi{' '}
+                  <small>Tojinur Lutfullo MCHJ</small>
+                </Link>
+                <a className="float-right">
+                  <Date /> <b>2021 - 2022</b>
+                </a>
+                <p>
+                  Kompyuter operatori sifatida mijozlarni qabul qilish va kompyuter tizimlarini boshqarish bilan shug‘ullanganman.  
+                </p>
+              </li>
+              <li>
+                <Link href="/projects">
+                  Axborot Kutubxona Texnologiyalari Mutaxassisi{' '}
+                  <small>AKM DV Muassasasi</small>
+                </Link>
+                <a className="float-right">
+                  <Date /> <b>2021 - 2022</b>
+                </a>
+                <p>
+                  Chinoz tuman xokimligi 1-sektor ishchi guruhi bo‘limida kutubxona tizimlari bilan ishlaganman.  
                 </p>
               </li>
             </ul>
           </article>
         </PageWrapper>
 
-        <PageWrapper className="mb-5" aria-label="Talim">
+        <PageWrapper className="mb-5" aria-label="Ta'lim">
           <article>
             <h4>Ta'lim.</h4>
             <ul className="timeline">
