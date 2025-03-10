@@ -12,20 +12,26 @@ import FooterLink from '../components/Footer';
 
 const Contact = () => {
   return (
-    <Layout title="Contact">
+    <Layout title="Bog‘lanish">
       <PageSection>
         <PageWrapper>
-          <h1 className="intro__text">Contact.</h1>
+          <h1 className="intro__text">Bog‘lanish</h1>
           <article>
             <p>
-              Get in touch or shoot me an email directly on{' '}
-              <b>hellocodewonders@gmail.com</b>
+              Men bilan bog‘lanish yoki to‘g‘ridan-to‘g‘ri email yuborish uchun:{' '}
+              <b>ziyovuddinbekmuratov87@gmail.com</b>
+            </p>
+            <p>
+              Telefon: <b>+998 88 113 40 02</b>
+            </p>
+            <p>
+              Manzil: <b>Toshkent viloyati, Chinoz tumani, 100101, O‘zbekiston</b>
             </p>
           </article>
           <br />
           <form
             method="POST"
-            action="https://formspree.io/adenekanwonderful41@gmail.com"
+            action="https://formspree.io/f/mbjnwjpd"
           >
             <div className="fields">
               <div className="field half">
@@ -34,7 +40,7 @@ const Contact = () => {
                   name="name"
                   id="name"
                   className="form-control"
-                  placeholder="Name"
+                  placeholder="Ismingiz"
                   aria-required="true"
                   required
                 />
@@ -45,7 +51,7 @@ const Contact = () => {
                   name="email"
                   id="email"
                   className="form-control"
-                  placeholder="Email"
+                  placeholder="Email manzilingiz"
                   aria-required="true"
                   required
                 />
@@ -56,7 +62,7 @@ const Contact = () => {
                   id="message"
                   rows={5}
                   className="form-control"
-                  placeholder="Message"
+                  placeholder="Xabaringiz"
                   aria-required="true"
                   required
                 />
@@ -65,9 +71,9 @@ const Contact = () => {
             <button
               className="btn btn-default"
               type="submit"
-              aria-label="Send Message"
+              aria-label="Xabar yuborish"
             >
-              Send Message
+              Yuborish
             </button>
           </form>
         </PageWrapper>
@@ -75,7 +81,7 @@ const Contact = () => {
 
       <PageWrapper>
         <FooterLink goto="/" className="mt-3 mb-5">
-          Go Back Home
+          Bosh sahifaga qaytish
         </FooterLink>
         <br />
       </PageWrapper>
