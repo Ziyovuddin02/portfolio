@@ -45,7 +45,7 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://twitter.com/code_wonders"
+          href=""
           aria-label="Go To Adenekan Wonderful Twitter Page"
           title="Twitter Page"
         >
@@ -54,7 +54,7 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.facebook.com/AdenekanWonderful"
+          href=""
           aria-label="Go To Adenekan Wonderful Facebook Page"
           title="Facebook Page"
         >
@@ -63,7 +63,7 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://linkedin.com/in/codewonders"
+          href=""
           aria-label="Go To Adenekan Wonderful Linkedin Page"
           title="Linkedin Page"
         >
@@ -72,7 +72,7 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/adenekan41"
+          href=""
           aria-label="Go To Adenekan Wonderful Github Page"
           title="Github Page"
         >
@@ -81,7 +81,7 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://dribbble.com/codewonders"
+          href=""
           aria-label="Go To Adenekan Wonderful Dribble Page"
           title="Dribbble Page"
         >
@@ -90,7 +90,7 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://instagram.com/codewonders"
+          href=""
           aria-label="Go To Adenekan Wonderful Instagram Page"
           title="Instagram Page"
         >
